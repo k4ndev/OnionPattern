@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Core.Models
 {
@@ -8,7 +6,7 @@ namespace Core.Models
     {
         public int Id { get; set; }
         public bool Status { get; set; }
-        public DateTime AddedAt { get; set; }
-        public DateTime ModifiedAt { get; set; }
+        public Nullable<DateTime> AddedAt { get; set; }
+        public Nullable<DateTime> ModifiedAt { get; set; }
     }
 }

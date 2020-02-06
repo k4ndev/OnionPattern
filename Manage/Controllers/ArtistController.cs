@@ -29,6 +29,22 @@ namespace Manage.Controllers
             return Ok(artistdto);
         }
 
+        [HttpPost]
+        [Route("api/artist")]
+        public async Task<IActionResult> Registr ([FromBody]ArtistCreateDto artist)
+        {
+            if (ModelState.IsValid)
+            {
+                var art = _mapper.Map<ArtistCreateDto,Artist>(artist);
+
+                await _artistService.CreateArtist(art);
+
+
+                var arts = _mapper.Map<Artist, ArtistDto>(art);
+                return Ok(arts);
+            }
+            return BadRequest("Bad Request");
+        }
         
     }
 }

@@ -15,7 +15,7 @@ namespace Manage.Mapping
         public MappingProfile()
         {
             CreateMap<Artist, ArtistDto>()
-                .ForMember(d => d.Poster,opt=>opt.MapFrom(src=>PhotoUrl))
+                .ForMember(d => d.Poster,opt=>opt.MapFrom(src=>PhotoUrl+src.Poster))
                 .ForMember(d=>d.AddedAt,opt=>opt.MapFrom(src=>DateTime.Now));
 
         }

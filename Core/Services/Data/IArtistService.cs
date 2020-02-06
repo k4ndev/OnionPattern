@@ -9,5 +9,8 @@ namespace Core.Services
     public interface IArtistService
     {
         Task<Artist> GetUserById(int id);
+        Task<Artist> CreateArtist(Artist artist);
     }
+
+
 }

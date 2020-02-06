@@ -6,3 +6,4 @@ C:\Users\KamranShm\source\repos\MusicApp\Core\obj\Debug\netcoreapp2.2\Core.Assem
 C:\Users\KamranShm\source\repos\MusicApp\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfo.cs
 C:\Users\KamranShm\source\repos\MusicApp\Core\obj\Debug\netcoreapp2.2\Core.dll
 C:\Users\KamranShm\source\repos\MusicApp\Core\obj\Debug\netcoreapp2.2\Core.pdb
+C:\Users\KamranShm\source\repos\MusicApp\Core\obj\Debug\netcoreapp2.2\Core.csprojAssemblyReference.cache
